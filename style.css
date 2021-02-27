@@ -1,0 +1,170 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background: #F2F2F2;
+    color: #837d88;
+    background-image: url('./images/image-hero-desktop.jpg');
+    background-repeat: no-repeat;
+  }
+  .nav-header{
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .nav-logo{
+    font-size: 28px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Commissioner', sans-serif;
+  }
+  .container {
+    max-width: 1150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .head-navbar{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }  
+  .nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  .nav-list{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    
+  }
+  .nav-link{
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      font-family: 'Commissioner', sans-serif;
+      margin-left: 30px;
+      font-size: 13px;
+  }
+  .nav-link:hover{
+      cursor: pointer;
+      text-decoration: underline;
+      transition: none;
+  }
+.mastercraft{
+    width:730px;
+    height: 269px;
+    background: white;
+    border-radius: 8px;
+    margin:180px auto;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Commissioner', sans-serif;
+}
+.mastercraft-text{
+    color: #7A7A7A;
+    font-weight: 400; 
+    padding-bottom: 40px;
+}
+.mastercraft-logo{
+    margin-top: -26px;
+}
+.mastercraft-btn{
+    margin-right: 100px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background: #3CB3AB;
+    border-radius: 33.5px;
+    padding:18px 40px;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.mastercraft-btn:hover{
+background: #147A73;
+}
+.mastercraft-btn-bookmark{
+    margin-left: 100px;
+    text-align: right;
+    position: relative;
+    border-radius: 33.5px;
+    text-decoration: none;
+    color: #7A7A7A;
+    font-weight: bold;
+    font-size: 16px;
+    background:#c5c5c5;
+    padding: 18px 45px;
+    transition: 0.5s;
+}
+.mastercraft-btn-bookmark:hover{
+    background:#dddcdc ;
+}
+.icon-bookmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.statistic{
+
+    box-shadow:0px 10px 5px 2px #7A7A7A;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  width:730px;
+  background: white;
+  height: 212px; 
+  margin: auto;
+  border-radius: 8px;
+}
+.line1{
+    text-align: center;
+    padding-right: 50px;
+    border-right: 1px solid #979797;
+}
+.line2{
+    margin-left: -120px;
+    padding-right: 50px;
+    border-right: 1px solid #979797;
+}
+.line3{
+    margin-left: -100px;
+}
+.statistic-line-title{
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 32px; 
+}
+.statistic-line1-text{
+    font-size: 15px;
+    color: #979797;
+    font-family: 'Commissioner', sans-serif;
+}
+.white-line{
+    border-radius: 5px;
+    margin: auto;
+    bottom: 10px;
+    position: absolute;
+    background: #979797;
+    width: 634px;
+    height: 12px;
+}
+.green-line{
+    background: #3CB3AB;
+    border-radius: 5px;
+    width: 496px;
+    height: 12px;
+    position: absolute;
+}
