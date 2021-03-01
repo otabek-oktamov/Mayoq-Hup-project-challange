@@ -36,6 +36,7 @@ html {
    }
   
   .nav-header{
+     margin: auto;
      width: 1140px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -74,7 +75,6 @@ html {
   .nav-link{
       text-decoration: none;
       color: #fff;
-      text-transform: uppercase;
       font-family: 'Commissioner', sans-serif;
       margin-left: 30px;
       font-size: 13px;
