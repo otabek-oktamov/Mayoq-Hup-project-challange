@@ -392,3 +392,10 @@ li{
    .reward-type {
        color: #000;
    }
+   .reward-item:hover {
+      box-shadow: 0 10px 5px rgba(196, 196, 196, 0.5);
+      transform: translateY(-15px);
+   }
+   .reward-item{
+      transition: 0.7s;
+   }
