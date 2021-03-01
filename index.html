@@ -45,15 +45,15 @@
 
     <div class="statistic" data-aos="fade-left" data-aos-duration="1000">
       <div class="line1">
-          <span class="statistic-line-title">$89,914</span>
-          <p class="statistic-line1-text">of $100,000 backed</p>
+          <span class="statistic-line-title" class="counter">$89,914</span>
+          <p class="statistic-line1-text"  class="counter">of $100,000 backed</p>
     </div>
       <div class="line2">
-        <span class="statistic-line-title">5000,7</span>
+        <span class="statistic-line-title"  class="counter">5000,7</span>
         <p class="statistic-line1-text">total backers</p>
       </div>
       <div class="line3">
-        <span class="statistic-line-title">56 </span>
+        <span class="statistic-line-title"  class="counter">56 </span>
         <p class="statistic-line1-text">days left</p>
       </div>
       <div class="white-line">
@@ -135,8 +135,16 @@
 
     </section>
 
+    <script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="node_modules/counterup/jquery.counterup.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="aos.js"></script>
     <script>
+
+$('.counter').counterUp({
+    delay: 10,
+    time: 1000
+});
         AOS.init();
          </script>
 </body>
