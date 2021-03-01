@@ -1,4 +1,8 @@
-AOS.init();
+AOS.init({
+    once: true,
+});
 $('.counterla').counterUp({
-    time: 1000
+    delay: 12,
+    time: 1000,
+    once: true,
     });
