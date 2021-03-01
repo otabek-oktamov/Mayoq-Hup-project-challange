@@ -28,14 +28,20 @@ html {
     color: #837d88;
     background-image: url('./images/image-hero-desktop.jpg');
     background-repeat: no-repeat;
+    
     font-family: "Commissioner", sans-serif;
     font-weight: var(--regular);
     font-size: 1.6rem;
     line-height: 1.6;
     background-color: #f4f4f4;
+    overflow: hidden;
    }
-  
+  .img{
+     
+  }
   .nav-header{
+   background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.0001) 100%);
+   mix-blend-mode: normal;
      margin: auto;
      width: 1140px;
     background-size: cover;
