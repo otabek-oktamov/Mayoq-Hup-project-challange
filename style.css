@@ -93,6 +93,9 @@ html {
     text-align: center;
     font-family: 'Commissioner', sans-serif;
 }
+.mastercraft-title{
+   color: #000;
+}
 .mastercraft-text{
     color: #7A7A7A;
     font-weight: 400; 
