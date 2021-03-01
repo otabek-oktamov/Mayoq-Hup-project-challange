@@ -35,6 +35,7 @@ html {
    }
   
   .nav-header{
+     max-width: 1197px;
     background-size: cover;
     background-repeat: no-repeat;
   }
